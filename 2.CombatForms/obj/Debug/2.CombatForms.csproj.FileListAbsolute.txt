@@ -1,0 +1,22 @@
+C:\Users\s178020\documents\visual studio 2015\Projects\Practice-Csharp\2.CombatForms\bin\Debug\2.CombatForms.exe.config
+C:\Users\s178020\documents\visual studio 2015\Projects\Practice-Csharp\2.CombatForms\bin\Debug\2.CombatForms.exe
+C:\Users\s178020\documents\visual studio 2015\Projects\Practice-Csharp\2.CombatForms\bin\Debug\2.CombatForms.pdb
+C:\Users\s178020\documents\visual studio 2015\Projects\Practice-Csharp\2.CombatForms\obj\Debug\2.CombatForms.csprojResolveAssemblyReference.cache
+C:\Users\s178020\documents\visual studio 2015\Projects\Practice-Csharp\2.CombatForms\obj\Debug\_2.CombatForms.Form1.resources
+C:\Users\s178020\documents\visual studio 2015\Projects\Practice-Csharp\2.CombatForms\obj\Debug\_2.CombatForms.Properties.Resources.resources
+C:\Users\s178020\documents\visual studio 2015\Projects\Practice-Csharp\2.CombatForms\obj\Debug\2.CombatForms.csproj.GenerateResource.Cache
+C:\Users\s178020\documents\visual studio 2015\Projects\Practice-Csharp\2.CombatForms\obj\Debug\2.CombatForms.exe
+C:\Users\s178020\documents\visual studio 2015\Projects\Practice-Csharp\2.CombatForms\obj\Debug\2.CombatForms.pdb
+C:\Users\s178020\documents\visual studio 2015\Projects\Practice-Csharp\2.CombatForms\bin\Debug\1.Containers.exe
+C:\Users\s178020\documents\visual studio 2015\Projects\Practice-Csharp\2.CombatForms\bin\Debug\1.Containers.pdb
+C:\Users\s178020\Downloads\Practice-Csharp-master\Practice-Csharp-master\2.CombatForms\bin\Debug\2.CombatForms.exe.config
+C:\Users\s178020\Downloads\Practice-Csharp-master\Practice-Csharp-master\2.CombatForms\obj\Debug\2.CombatForms.pdb
+C:\Users\s178020\Downloads\Practice-Csharp-master\Practice-Csharp-master\2.CombatForms\bin\Debug\2.CombatForms.exe
+C:\Users\s178020\Downloads\Practice-Csharp-master\Practice-Csharp-master\2.CombatForms\bin\Debug\2.CombatForms.pdb
+C:\Users\s178020\Downloads\Practice-Csharp-master\Practice-Csharp-master\2.CombatForms\bin\Debug\1.Containers.exe
+C:\Users\s178020\Downloads\Practice-Csharp-master\Practice-Csharp-master\2.CombatForms\bin\Debug\1.Containers.pdb
+C:\Users\s178020\Downloads\Practice-Csharp-master\Practice-Csharp-master\2.CombatForms\obj\Debug\2.CombatForms.csprojResolveAssemblyReference.cache
+C:\Users\s178020\Downloads\Practice-Csharp-master\Practice-Csharp-master\2.CombatForms\obj\Debug\_2.CombatForms.Form1.resources
+C:\Users\s178020\Downloads\Practice-Csharp-master\Practice-Csharp-master\2.CombatForms\obj\Debug\_2.CombatForms.Properties.Resources.resources
+C:\Users\s178020\Downloads\Practice-Csharp-master\Practice-Csharp-master\2.CombatForms\obj\Debug\2.CombatForms.csproj.GenerateResource.Cache
+C:\Users\s178020\Downloads\Practice-Csharp-master\Practice-Csharp-master\2.CombatForms\obj\Debug\2.CombatForms.exe

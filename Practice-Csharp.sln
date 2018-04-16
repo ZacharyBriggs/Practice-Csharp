@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.IntroToCsharp", "0.IntroToCsharp\0.IntroToCsharp.csproj", "{C063D108-E5F0-49A8-9B25-46BAA62175BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.Containers", "1.Containers\1.Containers.csproj", "{073489D4-F1E0-4A9E-A758-7C18FE57AFB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.CombatForms", "2.CombatForms\2.CombatForms.csproj", "{72E6D106-AAD5-4CAD-A6AD-678D0FB1661A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C063D108-E5F0-49A8-9B25-46BAA62175BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C063D108-E5F0-49A8-9B25-46BAA62175BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C063D108-E5F0-49A8-9B25-46BAA62175BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C063D108-E5F0-49A8-9B25-46BAA62175BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{073489D4-F1E0-4A9E-A758-7C18FE57AFB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{073489D4-F1E0-4A9E-A758-7C18FE57AFB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{073489D4-F1E0-4A9E-A758-7C18FE57AFB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{073489D4-F1E0-4A9E-A758-7C18FE57AFB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72E6D106-AAD5-4CAD-A6AD-678D0FB1661A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E6D106-AAD5-4CAD-A6AD-678D0FB1661A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E6D106-AAD5-4CAD-A6AD-678D0FB1661A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E6D106-AAD5-4CAD-A6AD-678D0FB1661A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
