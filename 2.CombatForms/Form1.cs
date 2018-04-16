@@ -21,20 +21,22 @@ namespace _2.CombatForms
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            character = new Character("Dummy", 0, 0);
+            character = new Character("Dummy", 0, 1);
             character.SavingThrows.Add("Strength", new Stat { Name = "Strength", Value = 0, Description = "" });
             character.SavingThrows.Add("Dexterity", new Stat { Name = "Dexterity", Value = 0, Description = "" });
             character.SavingThrows.Add("Constitution", new Stat { Name = "Constitution", Value = 0, Description = "" });
             character.SavingThrows.Add("Intelligence", new Stat { Name = "Intelligence", Value = 0, Description = "" });
             character.SavingThrows.Add("Wisdom", new Stat { Name = "Wisdom", Value = 0, Description = "" });
             character.SavingThrows.Add("Charisma", new Stat { Name = "Charisma", Value = 0, Description = "" });
-
+            progressBar1.Minimum = 0;
+            progressBar1.Maximum = 100;
         }
 
         public List<Character> myCharacters = new List<Character>();
         private void button1_Click(object sender, EventArgs e)
         {
             richTextBox1.Text = "";
+            richTextBox1.Text += "Level " + character.Level + "\n";
             foreach (var name in comboBox1.Items)
             {
                 if (character.CharacterName == name)
@@ -85,6 +87,29 @@ namespace _2.CombatForms
         {
             Stat a = (Stat) 1;
             Stat b = (Stat) "Gob";
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            textBox2.Text = "";
+            progressBar1.Value += 50;
+            character.ExperiencePoints += 50;
+            if (progressBar1.Value >= progressBar1.Maximum)
+            {
+                progressBar1.Value = 0;
+                progressBar1.Maximum += progressBar1.Maximum;
+                character.Level += 1;
+            }
+            textBox2.Text += progressBar1.Value + "/" + progressBar1.Maximum;
+        }
+
+        private void progressBar1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
         }
     }
 }

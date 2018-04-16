@@ -38,6 +38,9 @@ namespace _2.CombatForms
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -52,7 +55,7 @@ namespace _2.CombatForms
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(118, 89);
+            this.richTextBox1.Location = new System.Drawing.Point(110, 89);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(192, 237);
             this.richTextBox1.TabIndex = 1;
@@ -105,7 +108,7 @@ namespace _2.CombatForms
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(192, 368);
+            this.button5.Location = new System.Drawing.Point(235, 60);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 7;
@@ -113,11 +116,40 @@ namespace _2.CombatForms
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(12, 341);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 20);
+            this.button6.TabIndex = 8;
+            this.button6.Text = "Get Exp";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(12, 370);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(290, 23);
+            this.progressBar1.TabIndex = 9;
+            this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(94, 341);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(124, 20);
+            this.textBox2.TabIndex = 10;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(390, 412);
+            this.ClientSize = new System.Drawing.Size(318, 405);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.progressBar1);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.textBox1);
@@ -146,6 +178,9 @@ namespace _2.CombatForms
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
 
