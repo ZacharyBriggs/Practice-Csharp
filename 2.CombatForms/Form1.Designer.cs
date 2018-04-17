@@ -181,6 +181,7 @@ namespace _2.CombatForms
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.TextBox textBox2;
+        
     }
 }
 

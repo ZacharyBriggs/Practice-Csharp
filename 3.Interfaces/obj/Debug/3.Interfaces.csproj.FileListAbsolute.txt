@@ -1,0 +1,8 @@
+C:\Users\s178020\Documents\Visual Studio 2015\Projects\Practice-Csharp\3.Interfaces\bin\Debug\3.Interfaces.exe.config
+C:\Users\s178020\Documents\Visual Studio 2015\Projects\Practice-Csharp\3.Interfaces\obj\Debug\_3.Interfaces.Properties.Resources.resources
+C:\Users\s178020\Documents\Visual Studio 2015\Projects\Practice-Csharp\3.Interfaces\obj\Debug\3.Interfaces.csproj.GenerateResource.Cache
+C:\Users\s178020\Documents\Visual Studio 2015\Projects\Practice-Csharp\3.Interfaces\bin\Debug\3.Interfaces.exe
+C:\Users\s178020\Documents\Visual Studio 2015\Projects\Practice-Csharp\3.Interfaces\bin\Debug\3.Interfaces.pdb
+C:\Users\s178020\Documents\Visual Studio 2015\Projects\Practice-Csharp\3.Interfaces\obj\Debug\3.Interfaces.exe
+C:\Users\s178020\Documents\Visual Studio 2015\Projects\Practice-Csharp\3.Interfaces\obj\Debug\3.Interfaces.pdb
+C:\Users\s178020\Documents\Visual Studio 2015\Projects\Practice-Csharp\3.Interfaces\obj\Debug\3.Interfaces.csprojResolveAssemblyReference.cache
