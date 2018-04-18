@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
@@ -67,7 +68,7 @@ namespace _3.Interfaces
         [STAThread]
         static void Main()
         {
-            List<Animal> Animals = new List<Animal>();
+            /*List<Animal> Animals = new List<Animal>();
             List<Vehicle> Vehicles = new List<Vehicle>();
             var garfield = new Animal() { Name = "Garfield" };
             var courage = new Animal() { Name = "Courage" };
@@ -92,6 +93,15 @@ namespace _3.Interfaces
             foreach (var vehicle in Vehicles)
             {
                 vehicle.Log();
+            }*/
+            var rand = new Random();
+            var fight = new Other.Combat();
+            fight.Start();
+            while (true)
+            {
+                int attacker = rand.Next(0, 3);
+                int defender = rand.Next(0, 4);
+                fight.Fight(fight.Damagers[attacker], fight.Damageables[defender]);
             }
             var a = 1;
 

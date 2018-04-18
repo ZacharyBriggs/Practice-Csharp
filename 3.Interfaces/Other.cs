@@ -20,7 +20,7 @@ namespace _3.Interfaces
             int HitModifier { get; set; }
 
         }
-        public class Entity : IDamageable
+        public class Entity : IDamageable, IDamager
         {
             private int health;
             private string name;
@@ -45,6 +45,13 @@ namespace _3.Interfaces
                 set { armorclass = value; }
             }
 
+            public int HitModifier
+            {
+                get { return armorclass; }
+
+                set { armorclass = value; }
+            }
+
             public bool TakeDamage(int amount)
             {
                 amount -= this.ArmorClass;
@@ -60,6 +67,11 @@ namespace _3.Interfaces
             {
                 public bool TakeDamage(int amount)
                 {
+                    this.Health -= amount;
+                    if (amount < 0)
+                    {
+                        amount = 0;
+                    }
                     return true;
                 }
             }
@@ -67,6 +79,11 @@ namespace _3.Interfaces
             {
                 public bool TakeDamage(int amount)
                 {
+                    this.Health -= amount;
+                    if (amount < 0)
+                    {
+                        amount = 0;
+                    }
                     return true;
                 }
             }
@@ -74,6 +91,11 @@ namespace _3.Interfaces
             {
                 public bool TakeDamage(int amount)
                 {
+                    this.Health -= amount;
+                    if (amount < 0)
+                    {
+                        amount = 0;
+                    }
                     return true;
                 }
             }
@@ -81,10 +103,15 @@ namespace _3.Interfaces
             {
                 public bool TakeDamage(int amount)
                 {
+                    this.Health -= amount;
+                    if (amount < 0)
+                    {
+                        amount = 0;
+                    }
                     return true;
                 }
             }
-            public class Robot : Entity , IDamager
+            public class Robot : Entity, IDamager
             {
                 public int HitModifier
                 {
@@ -95,6 +122,11 @@ namespace _3.Interfaces
 
                 public bool TakeDamage(int amount)
                 {
+                    this.Health -= amount;
+                    if (amount < 0)
+                    {
+                        amount = 0;
+                    }
                     return true;
                 }
             }
@@ -109,6 +141,11 @@ namespace _3.Interfaces
 
                 public bool TakeDamage(int amount)
                 {
+                    this.Health -= amount;
+                    if (amount < 0)
+                    {
+                        amount = 0;
+                    }
                     return true;
                 }
             }
@@ -123,6 +160,11 @@ namespace _3.Interfaces
 
                 public bool TakeDamage(int amount)
                 {
+                    this.Health -= amount;
+                    if (amount < 0)
+                    {
+                        amount = 0;
+                    }
                     return true;
                 }
             }
@@ -130,21 +172,21 @@ namespace _3.Interfaces
 
         public class Combat
         {
+            public List<Entity> Damageables = new List<Entity>();
+            public List<Entity> Damagers = new List<Entity>();
             public void Start()
             {
-                List<Entity> Damageables = new List<Entity>();
-                var ezio = new Entity.Assassin() {Name = "Ezio", Health = 100, ArmorClass = 0};
-                var scorpion = new Entity.Ninja() {Name = "Scorpion", Health = 100, ArmorClass = 0};
-                var nord = new Entity.Nord() {Name = "Dovahkiin", Health = 100, ArmorClass = 0};
-                var soldier = new Entity.Soldier() {Name = "Shepard", Health = 100, ArmorClass = 0};
+                var ezio = new Entity.Assassin() { Name = "Ezio", Health = 100, ArmorClass = 0 };
+                var scorpion = new Entity.Ninja() { Name = "Scorpion", Health = 100, ArmorClass = 0 };
+                var nord = new Entity.Nord() { Name = "Dovahkiin", Health = 100, ArmorClass = 0 };
+                var soldier = new Entity.Soldier() { Name = "Shepard", Health = 100, ArmorClass = 0 };
                 Damageables.Add(ezio);
                 Damageables.Add(scorpion);
                 Damageables.Add(nord);
                 Damageables.Add(soldier);
-                List<Entity> Damagers = new List<Entity>();
-                var zero = new Entity.Robot() { Name = "Zero", Health = 100, ArmorClass = 0};
-                var geralt = new Entity.Witcher() {Name = "Geralt", Health = 100, ArmorClass = 0};
-                var kratos = new Entity.Spartan() {Name = "Kratos", Health = 100, ArmorClass = 0};
+                var zero = new Entity.Robot() { Name = "Zero", Health = 100, ArmorClass = 0, HitModifier = 10 };
+                var geralt = new Entity.Witcher() { Name = "Geralt", Health = 100, ArmorClass = 0, HitModifier = 10 };
+                var kratos = new Entity.Spartan() { Name = "Kratos", Health = 100, ArmorClass = 0, HitModifier = 10 };
                 Damagers.Add(zero);
                 Damagers.Add(geralt);
                 Damagers.Add(kratos);
@@ -153,7 +195,14 @@ namespace _3.Interfaces
             public void Fight(Entity damager, Entity damageable)
             {
                 //Calculate hit or miss
-                damageable.TakeDamage(20);
+                var rand = new Random();
+                int roll = rand.Next(1, 21);
+                if (roll > 21 - (damager.HitModifier - damageable.ArmorClass));
+                {
+                    damageable.TakeDamage(20);
+                    Console.WriteLine(damager.Name + " attacked " + damageable.Name);
+                    Console.WriteLine(damageable.Health);
+                }
             }
         }
     }

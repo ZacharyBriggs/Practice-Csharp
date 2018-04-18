@@ -6,3 +6,5 @@ C:\Users\s178020\Documents\Visual Studio 2015\Projects\Practice-Csharp\3.Interfa
 C:\Users\s178020\Documents\Visual Studio 2015\Projects\Practice-Csharp\3.Interfaces\obj\Debug\3.Interfaces.exe
 C:\Users\s178020\Documents\Visual Studio 2015\Projects\Practice-Csharp\3.Interfaces\obj\Debug\3.Interfaces.pdb
 C:\Users\s178020\Documents\Visual Studio 2015\Projects\Practice-Csharp\3.Interfaces\obj\Debug\3.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\s178020\Documents\Visual Studio 2015\Projects\Practice-Csharp\3.Interfaces\bin\Debug\1.Containers.exe
+C:\Users\s178020\Documents\Visual Studio 2015\Projects\Practice-Csharp\3.Interfaces\bin\Debug\1.Containers.pdb
