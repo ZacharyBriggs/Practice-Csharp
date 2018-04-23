@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -102,6 +103,7 @@ namespace _3.Interfaces
                 int attacker = rand.Next(0, 3);
                 int defender = rand.Next(0, 4);
                 fight.Fight(fight.Damagers[attacker], fight.Damageables[defender]);
+                Thread.Sleep(500);
             }
             var a = 1;
 

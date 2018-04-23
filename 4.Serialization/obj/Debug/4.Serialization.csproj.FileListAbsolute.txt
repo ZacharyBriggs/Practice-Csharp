@@ -1,0 +1,10 @@
+C:\Users\s178020\Documents\Visual Studio 2015\Projects\Practice-Csharp\4.Serialization\bin\Debug\4.Serialization.exe.config
+C:\Users\s178020\Documents\Visual Studio 2015\Projects\Practice-Csharp\4.Serialization\bin\Debug\4.Serialization.exe
+C:\Users\s178020\Documents\Visual Studio 2015\Projects\Practice-Csharp\4.Serialization\bin\Debug\4.Serialization.pdb
+C:\Users\s178020\Documents\Visual Studio 2015\Projects\Practice-Csharp\4.Serialization\bin\Debug\1.Containers.exe
+C:\Users\s178020\Documents\Visual Studio 2015\Projects\Practice-Csharp\4.Serialization\bin\Debug\Newtonsoft.Json.dll
+C:\Users\s178020\Documents\Visual Studio 2015\Projects\Practice-Csharp\4.Serialization\bin\Debug\1.Containers.pdb
+C:\Users\s178020\Documents\Visual Studio 2015\Projects\Practice-Csharp\4.Serialization\bin\Debug\Newtonsoft.Json.xml
+C:\Users\s178020\Documents\Visual Studio 2015\Projects\Practice-Csharp\4.Serialization\obj\Debug\4.Serialization.csprojResolveAssemblyReference.cache
+C:\Users\s178020\Documents\Visual Studio 2015\Projects\Practice-Csharp\4.Serialization\obj\Debug\4.Serialization.exe
+C:\Users\s178020\Documents\Visual Studio 2015\Projects\Practice-Csharp\4.Serialization\obj\Debug\4.Serialization.pdb

@@ -32,6 +32,10 @@ namespace _1.Containers
         }
     }
 
+    public class Stats
+    {
+        public List<Stat> stats = new List<Stat>();
+    }
     public class Character
     {
 
@@ -68,17 +72,16 @@ namespace _1.Containers
             playerStats.Add(charismaOther.Name, charismaOther);
             playerStats.Add(speed.Name, speed);
             */
-
-            Dictionary<string, Stat> SavingThrows = new Dictionary<string, Stat>();
-            SavingThrows.Add("Strength", new Stat { Name = "Strength", Value = 0, Description = "" });
-            SavingThrows.Add("Dexterity", new Stat { Name = "Dexterity", Value = 0, Description = "" });
-            SavingThrows.Add("Constitution", new Stat { Name = "Constitution", Value = 0, Description = "" });
-            SavingThrows.Add("Intelligence", new Stat { Name = "Intelligence", Value = 0, Description = "" });
-            SavingThrows.Add("Wisdom", new Stat { Name = "Wisdom", Value = 0, Description = "" });
-            SavingThrows.Add("Charisma", new Stat { Name = "Charisma", Value = 0, Description = ""});
-            foreach (var stat in SavingThrows)
+            Stats SavingThrows = new Stats();
+            SavingThrows.stats.Add(new Stat { Name = "Strength", Value = 0, Description = "" });
+            SavingThrows.stats.Add(new Stat { Name = "Dexterity", Value = 0, Description = "" });
+            SavingThrows.stats.Add(new Stat { Name = "Constitution", Value = 0, Description = "" });
+            SavingThrows.stats.Add(new Stat { Name = "Intelligence", Value = 0, Description = "" });
+            SavingThrows.stats.Add(new Stat { Name = "Wisdom", Value = 0, Description = "" });
+            SavingThrows.stats.Add(new Stat { Name = "Charisma", Value = 0, Description = ""});
+            foreach (var stat in SavingThrows.stats)
             {
-                Console.WriteLine(stat.Key);
+                Console.WriteLine(stat.Name + " " + stat.Value);
             }
 
         }

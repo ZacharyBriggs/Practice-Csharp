@@ -9,7 +9,6 @@ namespace _3.Interfaces
 {
     static class Other
     {
-        delegate int TValueChange(int i);
         public interface IDamageable
         {
             bool TakeDamage(int amount);
@@ -26,11 +25,21 @@ namespace _3.Interfaces
             private int health;
             private string name;
             private int armorclass;
-
+            public delegate void TValueChanged(int val);
+            public TValueChanged OnChange;
+            public void OutputChange(int value)
+            {
+                Console.WriteLine("Health changed to: " + value);
+            }
             public int Health
             {
                 get { return health; }
-                set { health = value; }
+                set
+                {
+                    health = value;
+                    OnChange = OutputChange;
+                    OnChange(health);
+                }
             }
 
             public string Name
@@ -198,11 +207,10 @@ namespace _3.Interfaces
                 //Calculate hit or miss
                 var rand = new Random();
                 int roll = rand.Next(1, 21);
-                if (roll > 21 - (damager.HitModifier - damageable.ArmorClass));
+                if (roll > 21 - (damager.HitModifier - damageable.ArmorClass))
                 {
-                    damageable.TakeDamage(20);
                     Console.WriteLine(damager.Name + " attacked " + damageable.Name);
-                    Console.WriteLine(damageable.Health);
+                    damageable.TakeDamage(20);
                 }
             }
         }

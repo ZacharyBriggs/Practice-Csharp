@@ -1,0 +1,34 @@
+{
+    "stats": [
+        {
+            "Name": "Strength",
+            "Value": 1,
+            "Description": ""
+        },
+        {
+            "Name": "Dexterity",
+            "Value": 0,
+            "Description": ""
+        },
+        {
+            "Name": "Constitution",
+            "Value": 0,
+            "Description": ""
+        },
+        {
+            "Name": "Intelligence",
+            "Value": 0,
+            "Description": ""
+        },
+        {
+            "Name": "Wisdom",
+            "Value": 0,
+            "Description": ""
+        },
+        {
+            "Name": "Charisma",
+            "Value": 0,
+            "Description": ""
+        }
+    ]
+}
