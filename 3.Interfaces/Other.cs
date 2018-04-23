@@ -9,6 +9,7 @@ namespace _3.Interfaces
 {
     static class Other
     {
+        delegate int TValueChange(int i);
         public interface IDamageable
         {
             bool TakeDamage(int amount);
