@@ -1,0 +1,1 @@
+C:\Users\s178020\Documents\Visual Studio 2015\Projects\Practice-Csharp\5.StatePatterns\bin\Debug\5.StatePatterns.exe.config
